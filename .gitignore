@@ -1,0 +1,5 @@
+*.npy
+id_rsa
+id_rsa.pub
+__pycache__
+.DS_Store

@@ -3,7 +3,7 @@
 import numpy as np
 from matplotlib.pyplot import colorbar, show, subplots, savefig
 
-results = np.loadtxt("data/data.dat")
+results = np.loadtxt("results/data.dat")
 
 fig, ax = subplots()
 image = ax.imshow(results, vmin=-3, vmax=3, extent=(-1, 1, -1, 1))
